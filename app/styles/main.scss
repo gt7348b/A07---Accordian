@@ -37,18 +37,18 @@ body {
   background-color: blue;
   border-radius: 6px;
   padding: 0px;
-  border: 10px;
-  border-color: black;
+  border: 10px solid black;
+  text-align: center;
 }
 
 .Body{
   margin: 0px auto 0 auto;
   height: 300px;
   width: 400px;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 200;
   line-height: 30px;
   background-color: green;
   border-radius: 6px;
-  padding: 60px;
+  padding: 20px;
 }
