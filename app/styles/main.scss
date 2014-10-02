@@ -29,7 +29,7 @@ body {
     border-radius: 6px;
     padding: 0px;
     text-align: center;
-    transition-property: height;
+    transition-property: height background-color;
     transition-duration: 4s;
     transition-delay: 2s;
 
@@ -42,6 +42,7 @@ body {
     transition-property: height;
     transition-duration: 4s;
     transition-delay: 2s;
+    background-color: red;
 
   }
 
