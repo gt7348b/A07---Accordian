@@ -15,9 +15,9 @@ $( "#Header1" ).click(function() {
 });
 
 $( "#Header2" ).click(function() {
-  alert( "Handler for .click()2 called." );
+  $("#Header2").toggleClass("click2");
 });
 
 $( "#Header3" ).click(function() {
-  alert( "Handler for .click()3 called." );
+  $("#Header3").toggleClass("click3");
 });
