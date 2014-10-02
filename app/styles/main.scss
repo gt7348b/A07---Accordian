@@ -39,6 +39,20 @@ body {
   padding: 0px;
   border: 10px solid black;
   text-align: center;
+  transition-property: height;
+  transition-duration: 4s;
+  transition-delay: 2s;
+
+}
+
+.Header:hover {
+  margin: 0px auto 0 auto;
+  width: 400px;
+  height: 300px;
+  transition-property: height;
+  transition-duration: 4s;
+  transition-delay: 2s;
+
 }
 
 .Body{
@@ -51,4 +65,5 @@ body {
   background-color: green;
   border-radius: 6px;
   padding: 20px;
+  transition-property: height;
 }
