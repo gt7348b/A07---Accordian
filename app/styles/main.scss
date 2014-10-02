@@ -4,8 +4,14 @@
 
 // Custom Styles
 
+//standard colors
+
+$color1: hsla(242, 9%, 75%, 1);     //grey
+$color2: blue;
+$color3: green;
+
 * {
-  border: 1px solid black;
+  border: 1px solid $color1;
 }
 
 body {
@@ -15,13 +21,12 @@ body {
 }
 
 .Box {
-  border: 3px solid black;
   width: 400px;
   margin: 0px auto 0 auto;
 
   .Header {
     width: 400px;
-    height: 50px;
+    height: 30px;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
@@ -29,25 +34,25 @@ body {
     border-radius: 6px;
     padding: 0px;
     text-align: center;
-    transition-property: height background-color;
-    transition-duration: 4s;
+    transition-property: /*height*/ background-color;
+    /*transition-duration: 4s;
     transition-delay: 2s;
-
+*/
   }
 
   .Header:hover {
     margin: 0px auto 0 auto;
     width: 400px;
-    height: 350px;
-    transition-property: height;
+    height: 50px;
+/*    transition-property: height;
     transition-duration: 4s;
     transition-delay: 2s;
-    background-color: red;
+*/    background-color: red;
 
   }
 
   .Body{
-    margin: 50px auto 0 auto;
+    margin: 30px auto 0 auto;
     height: 300px;
     width: 400px;
     font-size: 12px;
