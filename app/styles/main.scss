@@ -11,7 +11,7 @@ body {
 
 .hero-unit {
   margin: 50px auto 0 auto;
-  width: 600px;
+  height: 600px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
@@ -25,20 +25,26 @@ body {
   }
 }
 
+
+
 .Header {
-  margin: 50px auto 0 auto;
-  width: 100px;
+  margin: 0px auto 0 auto;
+  width: 400px;
+  height: 50px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: light-blue;
+  background-color: blue;
   border-radius: 6px;
-  padding: 60px;
+  padding: 0px;
+  border: 10px;
+  border-color: black;
 }
 
 .Body{
-  margin: 50px auto 0 auto;
-  width: 300px;
+  margin: 0px auto 0 auto;
+  height: 300px;
+  width: 400px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
