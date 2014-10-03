@@ -28,11 +28,10 @@ body {
     height: 30px;
     border-top: 3px solid $color1;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: bold;
     line-height: 30px;
     font: bold;
     background-color: $color2;
-    padding: 0px;
     text-align: left;
     transition-property: height;
     transition-duration: 4s;
@@ -44,7 +43,7 @@ body {
   height: 320px;
   border-top: 3px solid $color1;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: bold;
   line-height: 30px;
   background-color: $color2;
   padding: 0px;
