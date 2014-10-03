@@ -11,6 +11,8 @@ $( "#Header1" ).click(function() {
         $( '#Body1' ).toggle( 5000 );
         $( '#Body2' ).hide();
         $( '#Body3' ).hide();
+        $("#Header2").removeClass("click2");
+        $("#Header3").removeClass("click3");
 });
 
 $( "#Header2" ).click(function() {
@@ -18,6 +20,8 @@ $( "#Header2" ).click(function() {
   $( '#Body2' ).toggle( 5000 );
   $( '#Body3' ).hide();
   $( '#Body1' ).hide();
+  $("#Header1").removeClass("click1");
+  $("#Header3").removeClass("click3");
 });
 
 $( "#Header3" ).click(function() {
@@ -25,4 +29,6 @@ $( "#Header3" ).click(function() {
   $( '#Body3' ).toggle( 5000 );
   $( '#Body1' ).hide();
   $( '#Body2' ).hide();
+  $("#Header1").removeClass("click1");
+  $("#Header2").removeClass("click2");
 });
