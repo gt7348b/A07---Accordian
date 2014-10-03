@@ -38,6 +38,7 @@ body {
     text-align: left;
     transition-property: height;
     transition-duration: 4s;
+    overflow: hidden;
   }
 
 .click1 {
@@ -83,7 +84,7 @@ body {
   transition-property: height background-color;
   transition-duration: 4s;
   transition-delay: 2s;
-
+  overflow: hidden;
 }
   .Header:hover {
     margin: 0px auto 0 auto;
