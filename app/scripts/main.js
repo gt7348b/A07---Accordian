@@ -8,7 +8,7 @@ $( '#Body3' ).hide();
 
 $( "#Header1" ).click(function() {
         $('#Header1').toggleClass("click1");
-        $( '#Body1' ).toggle();
+        $( '#Body1' ).toggle( 5000 );
         $( '#Body2' ).hide();
         $( '#Body3' ).hide();
 });
@@ -22,7 +22,7 @@ $( "#Header2" ).click(function() {
 
 $( "#Header3" ).click(function() {
   $("#Header3").toggleClass("click3");
-  $( '#Body3' ).toggle();
+  $( '#Body3' ).toggle( 5000 );
   $( '#Body1' ).hide();
   $( '#Body2' ).hide();
 });
