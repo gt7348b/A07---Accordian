@@ -24,14 +24,13 @@ body {
   overflow: hidden;
 
   .Header {
-    width: 3px;
+    width: 400px;
     height: 30px;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
     font: bold;
     background-color: $color2;
-    border-radius: 6px;
     padding: 0px;
     text-align: left;
     transition-property: height;
@@ -46,7 +45,6 @@ body {
   font-weight: 200;
   line-height: 30px;
   background-color: $color2;
-  border-radius: 6px;
   padding: 0px;
   text-align: left;
   transition-property: height background-color;
@@ -60,9 +58,8 @@ body {
   font-weight: 200;
   line-height: 30px;
   background-color: $color2;
-  border-radius: 6px;
   padding: 0px;
-  text-align: center;
+  text-align: left;
   transition-property: height background-color;
   transition-duration: 4s;
 
@@ -75,9 +72,8 @@ body {
   font-weight: 200;
   line-height: 30px;
   background-color: $color2;
-  border-radius: 6px;
   padding: 0px;
-  text-align: center;
+  text-align: left;
   transition-property: height background-color;
   transition-duration: 4s;
   overflow: hidden;
@@ -85,23 +81,18 @@ body {
   .Header:hover {
     margin: 0px auto 0 auto;
     width: 400px;
-/*  transition-property: height;
-    transition-duration: 4s;
-    transition-delay: 2s;
-*/    background-color: $color4;
-
+    background-color: $color4;
   }
 
   .Body{
-    margin: 30px auto 0 auto;
+    margin: 0px auto 0 auto;
     height: 300px;
     width: 400px;
     font-size: 12px;
     font-weight: 200;
     line-height: 30px;
     background-color: $color3;
-    border-radius: 6px;
-    padding: 20px;
+    padding: 0px 20px;
     transition-property: height;
     text-align: justify;
   }
