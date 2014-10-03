@@ -7,8 +7,9 @@
 //standard colors
 
 $color1: hsla(242, 9%, 75%, 1);     //grey
-$color2: blue;
-$color3: green;
+$color2: hsla(211, 100%, 75%, 1);
+$color3: hsla(211, 100%, 93%, 1);
+$color4: hsla(183, 100%, 79%, 1);
 
 * {
   border: 1px solid $color1;
@@ -30,14 +31,14 @@ body {
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
-    background-color: blue;
+    font: bold;
+    background-color: $color2;
     border-radius: 6px;
     padding: 0px;
     text-align: center;
-    transition-property: /*height*/ background-color;
-    /*transition-duration: 4s;
+    transition-property: height;
+    transition-duration: 4s;
     transition-delay: 2s;
-*/
   }
 
 .click1 {
@@ -46,7 +47,7 @@ body {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: blue;
+  background-color: $color2;
   border-radius: 6px;
   padding: 0px;
   text-align: center;
@@ -62,7 +63,7 @@ body {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: blue;
+  background-color: $color2;
   border-radius: 6px;
   padding: 0px;
   text-align: center;
@@ -78,7 +79,7 @@ body {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: blue;
+  background-color: $color2;
   border-radius: 6px;
   padding: 0px;
   text-align: center;
@@ -93,7 +94,7 @@ body {
 /*  transition-property: height;
     transition-duration: 4s;
     transition-delay: 2s;
-*/    background-color: red;
+*/    background-color: $color4;
 
   }
 
@@ -104,7 +105,7 @@ body {
     font-size: 12px;
     font-weight: 200;
     line-height: 30px;
-    background-color: green;
+    background-color: $color3;
     border-radius: 6px;
     padding: 20px;
     transition-property: height;
