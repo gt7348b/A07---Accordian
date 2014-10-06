@@ -38,20 +38,21 @@ body {
     overflow: hidden;
   }
 
-.click {
-  width: 400px;
-  height: 320px;
-  border-top: 3px solid $color1;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 30px;
-  background-color: $color2;
-  padding: 0px;
-  text-align: left;
-  transition-property: height background-color;
-  transition-duration: 4s;
-  overflow: hidden;
-}
+  .click {
+    width: 400px;
+    height: 320px;
+    border-top: 3px solid $color1;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    background-color: $color2;
+    padding: 0px;
+    text-align: left;
+    transition-property: height background-color;
+    transition-duration: 4s;
+    overflow: hidden;
+  }
+
   .Header:hover {
     margin: 0px auto 0 auto;
     width: 400px;
